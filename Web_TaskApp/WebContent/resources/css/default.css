@@ -1,0 +1,37 @@
+@charset "UTF8"
+
+/*ボディ*/
+body
+{
+	font-family: sans-self;
+}
+
+.header-container
+{
+	background: #70a9ca;
+	color: white;
+	margin: 0;
+}
+
+.relative
+{
+    position: relative;
+}
+
+.welcomeMessage
+{
+	font-size: 5px;
+	position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+/* フッター*/
+footer{
+
+}
+.footer-container{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}

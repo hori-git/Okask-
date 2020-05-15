@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+html, body {
+	min-height: 100%;
+}
+a{
+	color: #d9889b;
+}
+a:hover{
+	color: #e3a0b0;
+}
+
+/* コンテンツ */
+.contents{
+}
+.contents-container{
+	box-sizing: border-box;
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 80px;
+	background-color: #fff;
+	box-shadow: 0 3px 5px 0 rgba(0,0,0,0.2);
+	background: #cccccc;
+	border-radius: 10px;
+}
+
+.sendButton{
+	padding: 6px 20px;
+	font-size: 20px;
+	position: relative;
+	top: 100;
+	left: 45%;
+}
+
+.btn-square {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #668ad8;/*ボタン色*/
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+  width: 10%;
+}
+.btn-square:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+
+span.required{
+	background-color: #66aa33;
+	padding: 2px 3px;
+	color: #fff;
+	margin-left: 6px;
+	vertical-align: 2px;
+	display: inline-block;
+	min-width: 34px;
+	text-align: center;
+	font-weight: normal;
+	font-size: 7px;
+}

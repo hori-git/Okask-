@@ -1,0 +1,61 @@
+@charset "utf-8";
+.title{
+	float: left;
+	padding: 6px 0;
+}
+
+.logo{
+	display: block;
+	width: auto;
+	height: 69px;
+	font-size: 0px;
+	background-image: url(resources/image/logo_Okask!.png) left top/64px auto no-repeat;
+}
+#login_form {
+	border: 10px solid #70a9ca;
+	border-radius: 10px;
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+ 	top: 50%;
+  	left: 50%;
+  	-webkit-transform : translate(-50%,-50%);
+  	transform : translate(-50%,-50%);
+  	text-align: center;/*一応BOX内の文字も中央寄せ*/
+}
+.login_title {
+	margin: 0;
+	padding: 8px 0;
+	font-size: 1em;
+	text-align: center;
+	background: #527c95;
+	color: #fff;
+}
+.login_line {
+	text-align: center;
+}
+input[type="text"], input[type="password"] {
+	padding: 6px;
+	font-size: 16px;
+	background: #c0c0c0;
+	border: 1px solid black;
+}
+input[type="submit"] {
+	padding: 6px 20px;
+	border: 4px solid #919191;
+	border-radius: 10px;
+	background: #a9a9a9;
+	font-size: 20px;
+	color: #ffffff;
+}
+textarea:focus{
+	background: #0096ff;
+}
+input[type="submit"]:hover {
+	background: #797979;
+}
+.textfield_label{
+	display: inline-block;
+	width: 7em;
+}

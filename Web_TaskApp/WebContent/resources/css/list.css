@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+.table{
+	border:1px solid #9eadc0;
+	border-collapse: collapse;
+	border-radius: 4px;
+	max-width: 100%;
+	width: 100%;
+	margin-bottom: 20px;
+	table-layout: auto;
+}
+
+.table th, .table td{
+	padding: 6px;
+	line-height: 20px;
+	text-align: left;
+	vertical-align: top;
+	border: 1px solid #9eadc0;
+}
+
+.table th{
+	background-color: #eeeeee;
+}
+
+.table td{
+	word-break: break-word;
+}
+
+.nowrap{
+	word-break: normal;
+	white-space: nowrap;
+}
+
+.content{
+	width: 800px;
+}
+
+.button{
+	right: 0;
+}
